@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "proxy-list-builder",
+      "/home/ubuntu/nodescraper"
+    ]
+  ],
+  "_from": "proxy-list-builder@latest",
+  "_id": "proxy-list-builder@1.0.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/proxy-list-builder",
+  "_nodeVersion": "6.11.5",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/proxy-list-builder-1.0.6.tgz_1509613077137_0.5674448134377599"
+  },
+  "_npmUser": {
+    "email": "smasadhaider@gmail.com",
+    "name": "smasadhaider"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "proxy-list-builder",
+    "raw": "proxy-list-builder",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/proxy-list-builder/-/proxy-list-builder-1.0.6.tgz",
+  "_shasum": "bdfedb092e9e177a94d9d449ff149e10fe46bc36",
+  "_shrinkwrap": null,
+  "_spec": "proxy-list-builder",
+  "_where": "/home/ubuntu/nodescraper",
+  "author": {
+    "name": "Asad Haider"
+  },
+  "bugs": {
+    "url": "https://github.com/asadhaider13/proxy-list-builder/issues"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mongoose": "^4.12.4",
+    "node-cron": "^1.2.1",
+    "request": "^2.83.0"
+  },
+  "description": "Node package to build proxy list from the free proxy listing websites and store them into mongodb",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-OYqSqnjmImM+R9/j7foRythip4wq+0Pgu12JqExr6zv4iYEHsOOlLy4hgkJBh0gnuS2AEj+NnGENWpTz5G/hKw==",
+    "shasum": "bdfedb092e9e177a94d9d449ff149e10fe46bc36",
+    "tarball": "https://registry.npmjs.org/proxy-list-builder/-/proxy-list-builder-1.0.6.tgz"
+  },
+  "gitHead": "d161052f7f5f877b08ca779ece0f2e892c45ea59",
+  "homepage": "https://github.com/asadhaider13/proxy-list-builder#readme",
+  "keywords": [
+    "proxies",
+    "proxies scraper",
+    "proxy list",
+    "proxy list builder",
+    "proxy scraper"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "smasadhaider",
+      "email": "smasadhaider@gmail.com"
+    }
+  ],
+  "name": "proxy-list-builder",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asadhaider13/proxy-list-builder.git"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.6"
+}
