@@ -94,7 +94,23 @@ setInterval(doRedo, 60 * 30 * 1000);
 const express = require('express')
 const app = express()
 app.get('/', function (req, res) {
-	
+  
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "proxies"
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+
+ var sql = "INSERT INTO clients (ipAddress, uuid, lastlogon, country) VALUES ('" + ip + "', '" + req.query.uuid + "', NOW(), '" + list[l].country + "')";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+  });
+});
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
