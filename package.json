@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "mongoose": "^4.12.4",
+    "mongoose": "^5.9.0",
     "node-cron": "^1.2.1",
     "request": "^2.83.0"
   },
